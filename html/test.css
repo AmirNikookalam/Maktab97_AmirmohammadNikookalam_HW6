@@ -1,0 +1,78 @@
+*{
+    direction: rtl;
+    font-family: Vazir;
+}
+
+.body{
+    width: 100%;
+    display: flex;
+}
+
+.block{
+    display: flex;
+    align-items: center;
+}
+
+.info{
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+} 
+
+.infopart{
+    display: block;
+}
+
+.icon{
+    display: block;
+    width: 15%;
+}
+
+.register{
+    width: 30%;
+}
+
+form{
+    display: block;
+    padding: 10px;
+    margin: 5px;
+}
+
+.box{
+    margin: 10px;
+}
+input{
+    width: 70%;
+    padding: 10px;
+}
+
+textarea{
+    width: 70%;
+    padding: 10px;
+}
+
+select{
+    width: 70%;
+    padding: 10px;
+}
+
+button{
+    background-color:greenyellow;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+
+@font-face {
+font-family: Vazir;
+src: url(./Font/Vazir-Black.ttf);
+font-weight: normal;
+}
+
+@font-face {
+font-family: Vazir;
+src: url(./Font/Vazir-Bold.woff);
+font-weight: bold;
+}

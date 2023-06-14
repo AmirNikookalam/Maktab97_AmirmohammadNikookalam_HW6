@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'IranSance';
+  src: url('../Fonts/Iranian\ Sans.ttf') format('ttf'),
+  url('../Fonts/Iranian\ Sans.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Byekan';
+  src: url('../Fonts/Yekan.ttf') format('ttf'),
+  url('../Fonts/Yekan.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Vazir';
+  src: url('../Fonts/Vazir-Bold.ttf') format('ttf'),
+  url('../Fonts/Vazir-Bold.ttf') format('truetype');
+}
+::before,
+::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+:root{
+  --color-gray:#dddddd;
+  --color-grayLite:#E3F2C1;
+  --color-Black:#000;
+  --color-font:#545360;
+}
+
+*{
+font-family: Vazir;
+direction: rtl;
+padding: 0%;
+margin: 0%;
+background-color: var(--color-grayLite);
+
+}
+h4,h3{
+color: var(--color-font);
+
+}
+
+.FormShop{
+width: 900px;
+height: 100%;
+background-color: var(--color-gray);
+box-shadow:  -2px 6px 15px 8px #888888;
+border-radius: 15px;
+align-items: center;
+margin-right: 105px;
+
+}
+.Summary{
+background-color: var(--color-grayLite);
+border-radius: 0 15px 15px 0;
+padding: 25px;
+border-radius: 15px;
+}
+.Cart{
+background-color: #ffffff;
+border-radius: 0 15px 15px 0;
+padding: 25px;
+}
+select{
+box-sizing: border-box;
+width: 100%;
+}
+#button-addon1:hover{
+color: #000;
+}
+.cont{
+  padding: 90px;
+}
+.bord{
+  border-radius: 25px;
+}
+.tend{
+  text-align: end;
+}
